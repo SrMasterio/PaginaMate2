@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Página Matématicas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-inverse navbar-light bg-danger navbar-toggleable-md">
+            <img class="image-fluid" src="Matematicas.png" width="100px" height="100px">
+            <h1>Página de matematicas</h1>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="navbar-nav">
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="nav-item nav-link active ml-5" href="index.html">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-4">
+                <h3 class="text-center text-light">Área Cuadrado</h3>
+                <form action="form-group">
+                    <label class="text-light">Ingresa un Lado:</label>
+                    <input type="number" class="form-control" id="lc1">
+                    <label class="text-light">Ingresa un Lado:</label>
+                    <input type="number" class="form-control" id="lc2">
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnc">Resultado</button>
+                    <div id="ac" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+            <div class="col-4">
+                <h3 class="text-center text-light">Área Triángulo</h3>
+                <form action="form-group">
+                    <label class="text-light">Ingresa el Lado 1:</label>
+                    <input type="number" class="form-control" id="lt1">
+                    <label class="text-light">Ingresa el Lado 2:</label>
+                    <input type="number" class="form-control" id="lt2">
+                    <label class="text-light">Ingresa el Lado 3:</label>
+                    <input type="number" class="form-control" id="lt3">
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnt">Resultado</button>
+                    <div id="at" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+            <div class="col-4">
+                <h1 class="text-center text-light">Descuento 10%</h1>
+                <form class="form-group">
+                    <label class="text-light">Ingresa un precio:</label>
+                    <input type="number" class="form-control" id="d" placeholder="$">
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnd">Resultado</button>
+                    <div id="rd" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h3 class="text-center text-light">Par | Impar</h3>
+                <form action="form-group">
+                    <label class="text-light">Ingresa un número:</label>
+                    <input type="number" class="form-control" id="pi">
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnpi">Resultado</button>
+                    <div id="rpi" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+            <div class="col-4">
+                <h3 class="text-center text-light">Listado de numeros</h3>
+                <form action="form-group">
+                    <label class="text-light">Conteo 100-1:</label>
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnco">Resultado</button>
+                    <div id="conteo" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+            <div class="col-4">
+                <h3 class="text-center text-light">Verificar Calificaciones</h3>
+                <form action="form-group">
+                    <label class="text-light">Ingresa tu calificación:</label>
+                    <input type="number" class="form-control" id="v">
+                    <button type="button" class="btn btn-info btn-block mt-3" id="Btnv">Resultado</button>
+                    <div id="cal" class="alert alert-success mt-3" role="alert"></div>
+                </form>
+            </div>
+        </div>
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="App.js"></script>
+    </body>
+</html>
